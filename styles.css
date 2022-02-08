@@ -97,9 +97,10 @@ nav ul li a:hover{
 
 
 
-
-
-
+section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 article{
     float: left;
