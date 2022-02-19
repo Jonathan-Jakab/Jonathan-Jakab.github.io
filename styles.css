@@ -118,6 +118,13 @@ footer p{
 }
 
 /*****Typography*****/
+article h1{
+    font-size: 27px;
+    font-weight: bold;
+    color: #640303;
+    margin-bottom: 16px;
+}
+
 h2{
     font-size: 32px;
     font-weight: bold;
