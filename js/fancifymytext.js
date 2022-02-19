@@ -27,8 +27,8 @@ function boring() {
 
 function moo() {  
   let textField = document.getElementById("text");
-    textField.style.textTransform = "uppercase";
-//     textField.style.textTransform = "capitalize";
+//     textField.style.textTransform = "uppercase";
+    textField.style.textTransform = "capitalize";
   let parts = textField.value.split(".");
     textField.value = parts.join("-Moo.");
 }
