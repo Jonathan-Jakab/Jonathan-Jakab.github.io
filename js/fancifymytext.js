@@ -26,8 +26,13 @@ function moo() {
   document.getElementById("text").style.text-transformation = "uppercase";
 }
 
-btnBigger.addEventListener('click', bigger);
-btnRadioFancy.addEventListener('click', fancy);
-btnRadioBoringBetty.addEventListener('click', boring);
-btnMoo.addEventListener('click', moo);
+btnBigger.onclick = bigger;
+btnRadioFancy.onclick = fancy;
+btnRadioBoringBetty.onclick = boring;
+btnMoo.onclick = moo;
+
+// btnBigger.onclick('click', bigger);
+// btnRadioFancy.addEventListener('click', fancy);
+// btnRadioBoringBetty.addEventListener('click', boring);
+// btnMoo.addEventListener('click', moo);
 
