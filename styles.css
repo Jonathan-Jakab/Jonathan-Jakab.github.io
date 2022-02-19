@@ -126,7 +126,7 @@ article h1{
 }
 
 article fieldset{
-    text-align: center;
+    float: center;
 }
 
 
