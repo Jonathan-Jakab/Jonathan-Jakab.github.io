@@ -15,14 +15,14 @@ function fancy() {
 }
 
 function boring() {  
-  let textField = document.getElementById("boring");
-  if(document.getElementById("fancy").checked) {
-  textField.style.fontSize = "12pt";
-  textField.style.fontWeight = "normal";
-  textField.style.color = "#000000";
-  textField.style.textDecoration = "none";
-  textField.style.fontStyle = "Arial";
-  document.getElementById("fancy").checked = "false";
+  let textField = document.getElementById("text");
+  if(document.getElementById("boring").checked) {
+    textField.style.fontSize = "12pt";
+    textField.style.fontWeight = "normal";
+    textField.style.color = "#000000";
+    textField.style.textDecoration = "none";
+    textField.style.fontStyle = "Arial";
+    document.getElementById("fancy").checked = "false";
 }
 
 function moo() {  
