@@ -122,13 +122,9 @@ article h1{
     font-size: 27px;
     font-weight: bold;
     color: #640303;
+    margin: auto;
     margin-bottom: 16px;
 }
-
-article fieldset{
-    margin: auto;
-}
-
 
 h2{
     font-size: 32px;
