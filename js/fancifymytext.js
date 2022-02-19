@@ -15,7 +15,7 @@ function fancy() {
 }
 
 function boring() {  
-  let textField = document.getElementById("text");
+  let textField = document.getElementById("boring");
   if(document.getElementById("fancy").checked) {
   textField.style.fontSize = "12pt";
   textField.style.fontWeight = "normal";
