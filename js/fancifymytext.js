@@ -25,8 +25,8 @@ function bigger() {
       textField.style.textDecoration = "none";
       textField.style.fontStyle = "Arial";
       document.getElementById("fancy").checked = "false";
-     }
     }
+  }
   
   function moo() {  
     let textField = document.getElementById("text");
