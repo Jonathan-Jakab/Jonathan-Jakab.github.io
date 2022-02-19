@@ -11,7 +11,7 @@ function fancy() {
         textField.style.color = "#0000ff";
         textField.style.textDecoration = "underline";
         textField.style.fontFamily = "Garamond";
-        document.getElementById("boring").checked = "false";
+        document.getElementById("boring").checked = false;
     }
   }
   
@@ -24,7 +24,7 @@ function boring() {
         textField.style.color = "#000000";
         textField.style.textDecoration = "none";
         textField.style.fontStyle = "Arial";
-        document.getElementById("fancy").checked = "false";
+        document.getElementById("fancy").checked = false;
     }
 }
   
