@@ -125,6 +125,11 @@ article h1{
     margin-bottom: 16px;
 }
 
+article fieldset{
+    text-align: center;
+}
+
+
 h2{
     font-size: 32px;
     font-weight: bold;
