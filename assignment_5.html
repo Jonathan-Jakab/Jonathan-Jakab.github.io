@@ -1,62 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
+  <head>
+    <title>Encrypt-It!</title>
+    <link rel="stylesheet" href="styles/encrypt-it-style.css">
+    <script src="encrypt-it.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Encrypt-It!</h1>
+      <h2>Translate any text message into a super-secret cipher!</h2>
+    </header>
+    <main>
+      <fieldset>
+        <legend>Text to Encrypt</legend>
+        <textarea id="input-text" rows="10" cols="60" placeholder="Enter your message to encrypted here"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Encrypt Options</legend>
 
-<head>
-    <meta charset="UTF-8">
-    <title>CSC196W - Assignment 5</title>
-    <link href="styles.css" rel="stylesheet">
-    <meta name="Assignment 5"
-        content="Unknown description">
-</head>
+        <p>
+          <strong>Cipher Type: </strong>
+          <select id="cipher-type">
+            <option value="shift">Shift Cipher</option>
+            <option value="random">Randomized</option>
+          </select>
+        </p>
 
-<body>
-    <section>
+        <p>
+          <strong>Font Size: </strong>
+          <label>
+            <input checked id="radio-font12" type="radio" name="text-size" value="12pt">12pt</input>
+          </label>
+          <label>
+            <input id="radio-font24" type="radio" name="text-size" value="24pt">24pt</input>
+          </label>
+        </p>
+        
+        <p>
+          <label>
+            <strong>All-Caps:</strong>
+            <input id="all-caps" type="checkbox" name="uppercase-ouput" value="uppercase"/>
+          </label>
+        </p>
 
-        <header>
-            <h1>
-                <a href="index.html" title="Assignment 5">
-                    <img src="images/header01.jpg" alt="Unknown description">
-                </a>
-            </h1>
-        </header>
+        <button id="encrypt-it">Encrypt It!</button>
+        <button id="reset">Reset</button>
+      </fieldset>
 
-        <nav>
-            <ul>
-                <li><a href="assignment_2a.html">Assignment 2a</a></li>
-                <li><a href="assignment_3.html">Assignment 3</a></li>
-                <li><a href="assignment_4.html">Assignment 4</a></li>
-                <li><a href="assignment_5.html">Assignment 5</a></li>
-                <li><a href="assignment_6.html">Assignment 6</a></li>
-                <li><a href="assignment_7.html">Assignment 7</a></li>
-                <li><a href="assignment_8.html">Assignment 8</a></li>
-                <li><a href="assignment_9.html">Assignment 9</a></li>
-                <li><a href="assignment_final.html">Final</a></li>
-            </ul>
-        </nav>
-
-        <article>
-            <h2>Coming Soon!</h2>
-        </article>
-
-        <footer>
-            <p> 6000 J St, Sacramento, CA 95819<br>
-               Available 12:00pm - 6:00pm MWF
-            </p>
-
-            <p>Phone: (***)-***-****<br>
-               Mail: *******@***<br>
-               Discord: *******<br>
-               Steam ID: *******<br>
-               Epic Games: *******<br>
-               PSN: *******<br>
-            </p>
-
-            <p>
-                Disclaimer: The address is the University's not my own. It is used merely for authenticity.
-            </p>
-        </footer>
-
-    </section>
-</body>
-
+      <div id="result-area">
+        <h2>Result:</h2>
+        <p id="result"></p>
+      </div>
+    </main>
+  </body>
 </html>
